@@ -5,6 +5,8 @@ vllm serve Qwen/Qwen3-30B-A3B \
 
 
 
+copy the ngrok server endpoint onto the .env inside the backend folder.
+
 
 
 To accesss the running application :
