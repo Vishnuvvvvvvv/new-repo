@@ -1,0 +1,22 @@
+python -m venv venv
+
+source venv/bin/activate
+
+
+pip install flask
+pip install flask-cors
+pip install pyngrok
+pip install openai
+
+
+
+python app.py
+
+
+
+curl -X POST "https://918c-4-31-212-69.ngrok-free.app/chat" ^
+-H "Content-Type: application/json" ^
+-d "{\"message\":\"What is the capital of France?\"}"
+
+
+https://notebooks.amd.com/jupyter-hack-team-3322-260614023946-29d09051/lab/tree/app.py?token=eb84b47e9c6818a216d928163ed7ca8fe6d654cc132adb91

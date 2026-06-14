@@ -1,0 +1,8 @@
+vllm serve Qwen/Qwen3-30B-A3B \
+    --served-model-name Qwen3-30B-A3B \
+    --api-key abc-123 \
+    --port 8000
+
+
+
+    
