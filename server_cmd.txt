@@ -5,4 +5,8 @@ vllm serve Qwen/Qwen3-30B-A3B \
 
 
 
-    
+
+
+To accesss the running application :
+
+https://notebooks.amd.com/jupyter-hack-team-3322-260614152226-c69fbbc7/proxy/6050/
